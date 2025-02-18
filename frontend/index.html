@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Usuários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>CRUD de Usuários</h1>
+
+        <!-- Formulário para adicionar ou editar usuários -->
+        <div class="form-container">
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="E-mail">
+            <button onclick="salvarUsuario()">Salvar</button>
+        </div>
+
+        <h2>Lista de Usuários</h2>
+        <ul id="listaUsuarios"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
